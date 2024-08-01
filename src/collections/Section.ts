@@ -83,7 +83,7 @@ export const Section: CollectionConfig = {
         {
           name: 'url',
           type: 'text',
-          label: "URL",
+          label: 'URL',
           required: true,
           validate: value => {
             if (validateUrl(value)) return true;
